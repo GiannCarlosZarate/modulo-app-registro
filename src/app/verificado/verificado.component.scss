@@ -1,0 +1,50 @@
+//CLASES GENERALES
+p{
+    margin: 0;
+    padding: 0 ;
+}
+//BOLD
+@font-face{
+    font-family: one;
+    src: url("./../../assets/font/Ubuntu-M.ttf");
+    
+}
+.one{
+    font-family: one;
+}
+//LIGTH
+@font-face {
+    font-family: two;
+    src: url("./../../assets/font/Ubuntu-L.ttf");
+}
+.two{
+    font-family: two;
+}
+//SECCION UNO
+//TITULO Y SUBTITULO
+.TituloSolicita{
+    font-size: 35px;
+    color: #228dbe;
+}
+.SubtituloRegis{
+    font-size: 17px;
+    color: #191919;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: auto;
+}
+.ContenedorSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 5rem;
+    margin: 5rem;
+    width: 600px;
+    border: 0.25px solid rgba($color: #19191919, $alpha: 0.2);
+}

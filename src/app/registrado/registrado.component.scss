@@ -1,0 +1,162 @@
+//CLASES GENERALES
+p{
+    margin: 0;
+    padding: 0 ;
+}
+//FUENTES QUE SE REPITEN 
+.ClasGeneralFont{
+    font-family: two;
+    font-size: 17px;
+    color: #191919;
+}
+//SECTION
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+//CONTENEDOR
+.ContenedorSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem;
+    margin: 2rem;
+    border: 0.25px solid rgba($color: #19191919, $alpha: 0.2);
+
+}
+//FUENTES
+//BOLD
+@font-face{
+    font-family: one;
+    src: url("./../../assets/font/Ubuntu-M.ttf");
+    
+}
+.one{
+    font-family: one;
+}
+//LIGTH
+@font-face {
+    font-family: two;
+    src: url("./../../assets/font/Ubuntu-L.ttf");
+}
+.two{
+    font-family: two;
+}
+//SECCION UNO
+//TITULO Y SUBTITULO
+.TituloSolicita{
+    font-size: 35px;
+    color: #228dbe;
+}
+.SubtituloRegis{
+    font-size: 17px;
+    color: rgba($color: #19191919, $alpha: 0.5);
+}
+.ContUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+//IMG Y AGGFOTO
+#imgAgg{
+    margin-bottom: 1rem;
+    width: 125px;
+    cursor: pointer;
+}
+.ContDos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+//FORM
+form{
+    margin: 2rem 0;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+.inputs{
+    padding: 1rem 0.5rem;
+    border: none;
+    font-family: two;
+    font-size: 15px;
+    width: 300px;
+    margin-right: 1rem;
+    border-bottom: 0.5px solid rgba($color: #19191919, $alpha: 0.5);
+}
+.inpust2{
+    margin: 0;
+}
+input{
+    padding: 1rem 0.5rem;
+    border: none;
+    font-family: two;
+    font-size: 15px;
+    width: 100%;
+    border-bottom: 0.5px solid rgba($color: #19191919, $alpha: 0.5);
+}
+input:focus{
+    outline: none;
+    color: #228dbe;
+    border-bottom: 0.5px solid rgba($color: #228dbe, $alpha: 1);
+}
+//BOTON
+#Btn{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 2rem 0rem 0rem 0rem ;
+    padding: 1.5rem 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #228dbe;
+    transition: all 0.5s;
+}
+#Btn:hover{
+    transform: translateY(2px);
+    box-shadow: 0px 10px 10px rgba($color: #19191919, $alpha: 0.2);
+}
+.TxtBtn{
+    font-size: 12px;
+    color: rgba($color: #19191919, $alpha: 0.5);
+    margin-top: 1rem;
+}
+.ContBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ImgLogo{
+    width: 150px;
+}
+.ContGrupo{
+    display: flex;
+    flex-direction: row;
+}
+.ContImge{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+.ContBtnAgg{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
